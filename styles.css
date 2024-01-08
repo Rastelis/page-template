@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +7,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Tektur', sans-serif;
 }
 
 main {
@@ -13,15 +16,15 @@ main {
 
 header {
     width: 100%;
-    /* padding: 15px; */
-    background: rgb(251, 248, 45);
-    background: linear-gradient(120deg, rgba(251, 248, 45, 1) 0%, rgba(205, 82, 10, 1) 100%);
+    background: #fbf82d;
+    background: linear-gradient(120deg, #fbf82d 0%, #cd520a 100%);
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 10px solid #ab9420;
 }
 
 nav ul {
@@ -32,9 +35,18 @@ nav ul {
     gap: 10px;
 }
 
+nav li {
+    background-color: #ab9420;
+    padding: 0.5em;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 nav a {
     color: #ffffff;
     text-decoration: none;
+    font-family: 'Tektur', sans-serif;
 }
 
 nav img {
@@ -42,7 +54,7 @@ nav img {
 }
 
 #home {
-    background: url(resources/images/galery/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.avif) no-repeat center center;
+    background: url(resources/images/galery/iStock-1159238834-1628x1080.jpg) no-repeat center center;
     background-size: cover;
     color: #ffffff;
 }
@@ -75,6 +87,12 @@ nav img {
     background: url(resources/images/galery/artemisi111122.jpg) no-repeat center center;
     background-size: cover;
     color: #ffffff;
+}
+
+#acnowlegment {
+    background: url(resources/images/galery/ultra-detailed-nebula-abstract-wallpaper-4.jpg) no-repeat center center;
+    background-size: cover;
+    color: #000000;
 }
 
 section {
