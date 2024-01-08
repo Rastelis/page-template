@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    /* padding: 15px; */
+    background: rgb(251, 248, 45);
+    background: linear-gradient(120deg, rgba(251, 248, 45, 1) 0%, rgba(205, 82, 10, 1) 100%);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav img {
+    margin-right: 15px;
+}
+
+#home {
+    background: url(resources/images/galery/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.avif) no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#about {
+    background: url(resources/images/galery/lightspeed-7290642__340.jpg.optimal.jpg) no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#goals {
+    background: url(resources/images/galery/iStock-1159238834-1628x1080.jpg) no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#galery {
+    background: url(resources/images/galery/NGC_4414_\NASA-med\.jpg) no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#resources {
+    background: url(resources/images/galery/USA\ flag.png) no-repeat center center;
+    background-size: cover;
+    color: #39386e;
+}
+
+#partners {
+    background: url(resources/images/galery/artemisi111122.jpg) no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+section img {
+    width: 500px;
+
+}
+
+.text {
+    width: 200px;
+}
