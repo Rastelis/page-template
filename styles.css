@@ -18,12 +18,14 @@ header {
     width: 100%;
     background: #fbf82d;
     background: linear-gradient(120deg, #fbf82d 0%, #cd520a 100%);
+    position: fixed;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 10px solid #ab9420;
     border-bottom: 10px solid #ab9420;
 }
 
